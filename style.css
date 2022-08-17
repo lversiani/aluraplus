@@ -98,3 +98,44 @@ body {
   font-size: 32px;
   color: var(--branco-principal);
 }
+.rodape__lista {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 1em;
+}
+.lista__link a {
+  color: var(--branco-principal);
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 1em;
+}
+.rodape__texto {
+  font-size: 14px;
+  color: var(--cinza-secundario);
+  text-align: center;
+  margin: 1em 0;
+}
+.rodape {
+  text-align: center;
+  margin: 3em 3em;
+}
+.rodape__logo {
+  margin-bottom: 2em;
+}
+.lista__link a:hover {
+  color: var(--botao-azul);
+  text-decoration: underline;
+}
+.lista__link a:active {
+  color: purple;
+}
+.container__botao:hover {
+  background-color: transparent;
+  border: 1px solid var(--branco-principal);
+}
+.botao_secundario:hover {
+  background-color: var(--botao-azul);
+  border: none;
+  color: var(--branco-principal);
+}
